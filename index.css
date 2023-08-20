@@ -1,0 +1,214 @@
+.hero{
+    background-color: rgb(242, 243, 243);
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    float: left;
+    padding: 40px;
+
+}
+
+nav {
+    float: right;
+    padding: 40px;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 50px;
+    color: rgb(247, 92, 247);
+}
+
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    background-color: crimson;
+    
+}
+
+.contain::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contain {
+    background-color: rgb(53, 51, 51);
+
+    color: rgb(247, 92, 247);
+}
+
+.contain .saitore {
+    float: left;
+   
+}
+
+.contain h2 {
+    font-size: 58px;
+    line-height: 95px;
+    padding: 110px 0px 0px 120px;
+}
+
+.contain hr {
+    width: 180px;
+    height: 5px;
+    background-color: rgb(247, 92, 247);
+}
+
+.home::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+button {
+    background-color: rgb(247, 92, 247);
+    padding: 15px 55px;
+    margin: 50px 200px;
+    
+    border-radius: 25px;
+    box-shadow: 0 1px 2px rgb(247, 92, 247);
+    border: none;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.jumbotron {
+    background-color: rgb(242, 243, 243);
+    text-align: left;
+    font-size: 30px;
+    line-height: 50px;
+    background-image: url(./images/dragonfly-ave-M9WYRLN26Xs-unsplash.jpg);
+    background-size: cover;
+    font-weight: bolder;
+    opacity: 0.7;
+    padding: 50px;
+
+
+}
+
+.jumbotron h1 {
+    color: rgb(247, 92, 247);
+    padding: 30px 150px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+.skills {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(242, 243, 243);
+    margin;
+}
+
+.part1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+
+.skills h3 {
+    color: blueviolet;
+    font-weight: bolder;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.skills hr {
+    width: 50px;
+    height: 5px;
+    background-color: rgb(247, 92, 247);
+}
+
+
+
+.col-3 {
+
+    border: none;
+    margin: 65px;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+    box-shadow: 5px 5px 7px rgb(247, 92, 247);
+}
+
+.col-3 h6 {
+    color: rgb(247, 92, 247);
+    font-size: 50px;
+}
+
+.col-3 p {
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.card-body {
+    background-color: rgb(53, 51, 51);
+}
+
+.card-body p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(247, 92, 247);
+
+}
+
+
+.card-body a {
+    color: blueviolet;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    color: rgb(247, 92, 247);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.card-body .col {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(247, 92, 247);
+}
+
+.card-footer {
+    text-align: center;
+    background-color: rgb(247, 92, 247);
+    color: rgb(53, 51, 51);
+}
+
+.Request{
+    margin-left: 35%;
+}
